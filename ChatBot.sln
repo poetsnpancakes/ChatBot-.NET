@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot.csproj", "{D2D70294-81D1-4502-A45F-6F9B98FD56FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qdrant", "..\Qdrant\Qdrant.csproj", "{BE9A9EF2-F401-4ABF-8563-8E4423B2E42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D70294-81D1-4502-A45F-6F9B98FD56FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D70294-81D1-4502-A45F-6F9B98FD56FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D70294-81D1-4502-A45F-6F9B98FD56FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D70294-81D1-4502-A45F-6F9B98FD56FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9A9EF2-F401-4ABF-8563-8E4423B2E42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9A9EF2-F401-4ABF-8563-8E4423B2E42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9A9EF2-F401-4ABF-8563-8E4423B2E42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9A9EF2-F401-4ABF-8563-8E4423B2E42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D922F16-58D5-4B20-8FEF-5E5B56BE32A8}
+	EndGlobalSection
+EndGlobal
